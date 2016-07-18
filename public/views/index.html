@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app='practiceApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Practice App Angular/Express</title>
+    <script src="vendors/angular/angular.min.js"></script>
+    <script src="vendors/angular-route/angular-route.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <base href="/" />
+  </head>
+  <body>
+    <h1> Get your student list here!</h1>
+    <a href="/students"><button>Display Students</button></a>
+    <ol ng-view class="studentsDisplay">
+
+    </ol>
+  </body>
+</html>
